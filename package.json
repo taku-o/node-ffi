@@ -27,12 +27,12 @@
     "debug": "2",
     "nan": "^2.12.0",
     "ref": "github:taku-o/ref#node-12",
-    "ref": "github:taku-o/ref-struct#node-12"
+    "ref-struct": "github:taku-o/ref-struct#node-12"
   },
   "devDependencies": {
     "fs-extra": "^0.23.1",
     "mocha": "*",
-    "ref-array": "1"
+    "ref-array": "github:taku-o/ref-array#node-12"
   },
   "scripts": {
     "test": "node-gyp rebuild --directory test && mocha -gc --reporter spec"
